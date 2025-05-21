@@ -26,10 +26,10 @@ const UserProvider = ({children}: props) => {
         password: '123456',
         docType: 'Cedula',
         docNumber: docNumber,
-        client_Id: 'mobileclient.virtualqueue',
+        client_Id: '',
         client_Secret:
-          '1a4805ac784c56662cd4aad56f0b21024215de18f2da5c01918dead7ce4f1115',
-        callbackToken: '123456789qwerty',
+          '',
+        callbackToken: '',
         data: {
           gender: 'Male',
           age: 25,
